@@ -41,8 +41,6 @@ If two vertices are connected to the same third vertices, the tendency for them 
 
 ![image](https://github.com/smitsekhadiaa/social_network_link_prediction/assets/90528630/7b510115-4193-4601-83be-18be40dddc5b)
 
-
-
 2. Jaccard Coefficient:
 It is calculated by the number of common neighbours normalised by the total number of neighbours. It is used to measure the similarity between two finite sample sets, and is defined as the size of the intersection divided by the size of the union of the sample sets.
 
@@ -72,7 +70,7 @@ These measures capture different aspects of node similarity and can be used alon
 
 # Classification technique through ML models
 
-We can  use similarity based measures as features for classification in ML models.
+We can use similarity based measures as features for classification in ML models.
 To improve generalisation and prediction, we can add a set of features like: 
 1. jaccard_followers 
 2. jaccard_followees 
